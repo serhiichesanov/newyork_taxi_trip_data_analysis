@@ -7,14 +7,10 @@ Each record includes pickup and drop-off timestamps and locations, trip distance
 
 The dataset used in this project covers **five years (2020–2024)** and originally contains over **160 million trips**, making it suitable for large-scale data processing and analysis. Due to its size and real-world nature, the dataset presents typical Big Data challenges such as missing values, inconsistent schemas, duplicates, and extreme outliers.
 
----
-
 ## Goal of the Analysis
 
 The goal of this project is to **extract actionable insights from large-scale taxi trip data** that can support decision-making aimed at improving service efficiency and profitability.  
 The analysis focuses on identifying temporal, spatial, and pricing patterns in taxi trips, understanding customer payment behavior, and comparing trends with competing ride-hailing services.
-
----
 
 ## Technologies and Data Preprocessing
 
@@ -39,8 +35,6 @@ This project uses **PySpark** as the primary Big Data processing framework to ef
 
 After preprocessing, the dataset was reduced to approximately **139 million clean records**.
 
----
-
 ## Data Analysis
 
 The analysis consists of several components:
@@ -54,8 +48,6 @@ The analysis consists of several components:
 - **Comparative trend analysis** of Yellow Taxi, Uber, and Lyft trip volumes, revealing similar growth patterns influenced by external factors (e.g., COVID-19)
 
 Based on the results, the project proposes data-driven recommendations such as dynamic pricing during peak hours, enhanced tip promotion strategies, and optimization of taxi distribution across city regions.
-
----
 
 ## Technologies Used
 
